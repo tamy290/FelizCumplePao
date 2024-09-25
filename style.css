@@ -23,21 +23,21 @@ header {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 100px;
     margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 100px;
     margin-bottom: 30px;
 }
 
 h3{
-    font-size: 4em;
+    font-size: 80px;
 }
 
 .mess{
-    font-size: 5em;
+    font-size: 100px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -62,7 +62,7 @@ h3{
 
 button {
     padding: 15px 30px;
-    font-size: 1.5em;
+    font-size: 100px;
     border: none;
     background-color: #ff4757;
     color: white;
@@ -87,7 +87,7 @@ button:hover {
 
 ul {
     list-style-type: none;
-    font-size: 3em; 
+    font-size: 50px; 
 }
 
 li {
@@ -102,29 +102,31 @@ video {
 
 footer {
     margin-top: 50px;
-    font-size: 1.2em;
+    font-size: 100px;
     color: #666;
 }
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 3em;
+        font-size: 48px; 
     }
 
     h2 {
-        font-size: 1.8em;
+        font-size: 28px; 
     }
 
     .chan-photo {
-        width: 80%;
+        width: 80%; 
+        max-width: 640px; 
+        height: auto; 
     }
 
     button {
-        font-size: 1.2em;
-        padding: 10px 20px;
+        font-size: 20px; 
+        padding: 10px 20px; 
     }
 
     li {
-        font-size: 1.2em;
+        font-size: 20px; 
     }
 }
