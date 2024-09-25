@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .chan-photo {
+        width: 80%;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+    li {
+        font-size: 1.2em;
+    }
+}
